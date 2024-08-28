@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  
+  "name": "Custom shortcut for Reader View",
+  "version": "1.0.1",
+  "description": "Set a custom shortcut that triggers the Reader View",
+  
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "commands": {
+    "trigger-reader-view": {
+      "suggested_key": { "default": "Alt+A" },
+      "description": "Toggle reader view"
+    }
+  }
+}
